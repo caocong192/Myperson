@@ -1,0 +1,3 @@
+- name: install zabbix-agent
+  shell: rpm -Uvh /tmp/{{ rpmname }} 
+  ignore_errors: True

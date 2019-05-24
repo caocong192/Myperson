@@ -1,0 +1,2 @@
+- name: copy rpm file
+  copy: src={{ rpmname }} dest=/tmp/ owner={{ username }}

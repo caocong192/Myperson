@@ -1,0 +1,6 @@
+- import_tasks: copyfile.yml
+- import_tasks: install.yml
+- import_tasks: yum.yml
+- import_tasks: rmfile.yml
+- import_tasks: templ.yml
+- import_tasks: start.yml
